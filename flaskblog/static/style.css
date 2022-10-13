@@ -1,15 +1,16 @@
 body {
-    background: #fafafa;
-    color: #333333;
+    background: #ff00cc;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #333399, #ff00cc);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #333399, #ff00cc); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     margin-top: 5rem;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    color: #444444;
+    color: #000;
   }
   
   .bg-steel {
-    background-color: #5f788a;
+    background-color:#333399;
   }
   
   .site-header .navbar-nav .nav-link {
@@ -25,7 +26,7 @@ body {
   }
   
   .content-section {
-    background: #ffffff;
+    background: white;
     padding: 10px 20px;
     border: 1px solid #dddddd;
     border-radius: 3px;
